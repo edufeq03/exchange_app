@@ -14,3 +14,12 @@ Completed 200 OK in 47ms (Views: 44.8ms | ActiveRecord: 0.0ms)
 Processing by HomeController#exchange as HTML
 Completed 200 OK in 835ms (Views: 0.6ms | ActiveRecord: 0.0ms)
   [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (229.7ms)[0m  [1m[35mDROP DATABASE IF EXISTS "onebitcode_exchance_test"[0m
+  [1m[35m (766.2ms)[0m  [1m[35mCREATE DATABASE "onebitcode_exchance_test" ENCODING = 'unicode'[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2018-01-10 17:08:28 +0000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 13911ms (Views: 13886.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
