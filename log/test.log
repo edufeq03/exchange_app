@@ -1,0 +1,16 @@
+  [1m[35m (488.6ms)[0m  [1m[35mDROP DATABASE IF EXISTS "onebitcode_exchance_test"[0m
+  [1m[35m (1510.2ms)[0m  [1m[35mCREATE DATABASE "onebitcode_exchance_test" ENCODING = 'unicode'[0m
+  [1m[35m (236.9ms)[0m  [1m[35mDROP DATABASE IF EXISTS "onebitcode_exchance_test"[0m
+  [1m[35m (732.7ms)[0m  [1m[35mCREATE DATABASE "onebitcode_exchance_test" ENCODING = 'unicode'[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 47ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+Processing by HomeController#exchange as HTML
+Completed 200 OK in 835ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
