@@ -1,0 +1,31 @@
+I"E(function() {
+  $(document).ready(function() {
+    $('form').submit(function() {
+      if ($('form').attr('action') === '/exchange') {
+        $.ajax('/exchange', {
+          type: 'POST',
+          dataType: 'json',
+          data: {
+            currency: $("#currency").val(),
+            currency_destination: $("#currency_destination").val(),
+            quantity: $("#quantity").val()
+          },
+          error: function(jqXHR, textStatus, errorThrown) {
+            return alert(textStatus);
+          },
+          success: function(data, text, jqXHR) {
+            return $('#result').val(data.value);
+          }
+        });
+        return false;
+      }
+    });
+    return $("currency").on("click", (function(_this) {
+      return function() {
+        return alert("Aeeeeeeee");
+      };
+    })(this));
+  });
+
+}).call(this);
+:ET
