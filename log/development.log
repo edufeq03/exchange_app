@@ -2183,3 +2183,24 @@ Processing by HomeController#exchange as JSON
 Completed 200 OK in 654ms (Views: 0.5ms | ActiveRecord: 0.0ms)
 
 
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 13:26:54 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"EUR", "currency_destination"=>"BRL", "quantity"=>"2"}
+Completed 200 OK in 706ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 13:26:56 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"EUR", "currency_destination"=>"BRL", "quantity"=>"1"}
+Completed 200 OK in 695ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 13:27:00 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"1"}
+Completed 200 OK in 699ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
