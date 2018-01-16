@@ -460,3 +460,1654 @@ Processing by HomeController#exchange as JSON
 Completed 200 OK in 914ms (Views: 0.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 172.21.0.1 at 2018-01-13 16:52:33 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (7.0ms)
+  Rendered home/index.html.erb within layouts/application (44.9ms)
+Started GET "/" for 172.21.0.1 at 2018-01-13 16:52:36 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (3.1ms)
+  Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 3022ms (Views: 2985.7ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1983ms (Views: 1980.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-13 16:52:49 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OfT2hqQmSqSIV+PKHwGQxJOmRGGejHQGEXmFsOSzCcEpBsWB7/RzvkiQsUNZwZAdkcP3P/VKBrj0i/uTQ3LGGg==", "currency"=>"BRL", "quantity"=>"50", "currency_destination"=>"EUR", "result"=>""}
+Completed 200 OK in 1117ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-13 16:53:51 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (4.9ms)
+  Rendered home/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 888ms (Views: 746.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-13 16:53:55 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"2"}
+Completed 200 OK in 683ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-13 16:57:00 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (2.9ms)
+  Rendered home/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 466ms (Views: 464.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-13 16:57:00 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>""}
+Completed 200 OK in 662ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-13 16:57:08 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tcUeJSJViosAE9OWsWUaO0Dq0w3patAZ8wbkr3ewJUulNy0iaYezkcDUgR/3pRriQo9gU4KsoqcW9JqM0HHqkA==", "currency"=>"BRL", "quantity"=>"3", "currency_destination"=>"HRK", "result"=>"0"}
+Completed 200 OK in 664ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-13 16:57:11 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"HRK", "quantity"=>"3"}
+Completed 200 OK in 670ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-13 16:57:19 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (2.9ms)
+  Rendered home/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 120ms (Views: 117.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-13 16:57:22 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"1"}
+Completed 200 OK in 648ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-13 17:11:55 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (2.7ms)
+  Rendered home/index.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 369ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:19:1: reserved word 'function'):
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:     <%= favicon_link_tag '/favicon.png' %>
+    10:   </head>
+    11: 
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___2495915802995122750_28011620'
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (9.1ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (45.1ms)
+Started GET "/" for 172.21.0.1 at 2018-01-13 17:12:58 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (2.8ms)
+  Rendered home/index.html.erb within layouts/application (4.6ms)
+Completed 500 Internal Server Error in 281ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:19:1: unmatched }):
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:     <%= favicon_link_tag '/favicon.png' %>
+    10:   </head>
+    11: 
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___2495915802995122750_69950188556140'
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.9ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (36.7ms)
+Started GET "/" for 172.21.0.1 at 2018-01-13 17:13:09 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (2.8ms)
+  Rendered home/index.html.erb within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 233ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:19:1: unmatched }):
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:     <%= favicon_link_tag '/favicon.png' %>
+    10:   </head>
+    11: 
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___2495915802995122750_69950164546920'
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (9.3ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (38.7ms)
+Started GET "/" for 172.21.0.1 at 2018-01-13 17:13:26 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (2.5ms)
+  Rendered home/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 101ms (Views: 99.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-13 17:13:29 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"2"}
+Completed 200 OK in 671ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-13 17:13:51 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (3.2ms)
+  Rendered home/index.html.erb within layouts/application (5.2ms)
+Completed 500 Internal Server Error in 366ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:19:1: reserved word 'function'):
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:     <%= favicon_link_tag '/favicon.png' %>
+    10:   </head>
+    11: 
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___2495915802995122750_35760780'
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (19.2ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.8ms)
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (58.0ms)
+Started GET "/" for 172.21.0.1 at 2018-01-13 17:14:17 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (41.3ms)
+  Rendered home/index.html.erb within layouts/application (43.4ms)
+Completed 500 Internal Server Error in 292ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:19:1: reserved word 'function'):
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:     <%= favicon_link_tag '/favicon.png' %>
+    10:   </head>
+    11: 
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___2495915802995122750_69950164619040'
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (10.1ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (38.2ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.5ms)
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (76.8ms)
+Started GET "/" for 172.21.0.1 at 2018-01-13 17:14:50 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (3.3ms)
+  Rendered home/index.html.erb within layouts/application (6.4ms)
+Completed 500 Internal Server Error in 263ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:19:1: reserved word 'function'):
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:     <%= favicon_link_tag '/favicon.png' %>
+    10:   </head>
+    11: 
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___2495915802995122750_35843740'
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.7ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (46.0ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (100.6ms)
+Started GET "/" for 172.21.0.1 at 2018-01-13 17:26:24 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (55.9ms)
+  Rendered home/index.html.erb within layouts/application (74.7ms)
+Completed 200 OK in 468ms (Views: 348.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 11:26:37 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (11.6ms)
+  Rendered home/index.html.erb within layouts/application (62.5ms)
+Started GET "/" for 172.21.0.1 at 2018-01-15 11:26:40 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (3.4ms)
+  Rendered home/index.html.erb within layouts/application (5.3ms)
+Completed 500 Internal Server Error in 2708ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:21:5: reserved word 'function'):
+    4:     <title>ExchangeApp</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:     <%= favicon_link_tag '/favicon.png' %>
+   10:   </head>
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___1759817498214934910_38795520'
+Completed 500 Internal Server Error in 1404ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:21:5: reserved word 'function'):
+    4:     <title>ExchangeApp</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:     <%= favicon_link_tag '/favicon.png' %>
+   10:   </head>
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___1759817498214934910_69898419549980'
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (12.8ms)
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (11.7ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (96.4ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (86.0ms)
+Started GET "/" for 172.21.0.1 at 2018-01-15 11:26:56 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (2.7ms)
+  Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 255ms (Views: 253.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 11:31:06 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (4.1ms)
+  Rendered home/index.html.erb within layouts/application (6.3ms)
+Completed 500 Internal Server Error in 586ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:19:5: reserved word 'function'):
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:     <%= favicon_link_tag '/favicon.png' %>
+    10:   </head>
+    11: 
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1759817498214934910_39305600'
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (9.3ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (40.3ms)
+Started GET "/" for 172.21.0.1 at 2018-01-15 12:12:14 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (23.5ms)
+  Rendered home/index.html.erb within layouts/application (122.9ms)
+Completed 200 OK in 3360ms (Views: 3275.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 12:12:20 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>""}
+Completed 200 OK in 2355ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 12:13:04 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (3.9ms)
+  Rendered home/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 488ms (Views: 484.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 12:13:05 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>""}
+Completed 200 OK in 835ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 12:13:19 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"IDR", "quantity"=>"51"}
+Completed 200 OK in 1027ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 12:13:23 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"IDR", "quantity"=>"1"}
+Completed 200 OK in 915ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 12:13:30 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"USD", "quantity"=>"1"}
+Completed 200 OK in 823ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 12:14:32 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (3.8ms)
+  Rendered home/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 498ms (Views: 495.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 12:14:33 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>""}
+Completed 200 OK in 704ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 12:15:14 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (4.0ms)
+  Rendered home/index.html.erb within layouts/application (26.6ms)
+Completed 500 Internal Server Error in 316ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:24:1: unexpected indentation):
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:     <%= favicon_link_tag '/favicon.png' %>
+    10:   </head>
+    11: 
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1759817498214934910_69898424107840'
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (9.9ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (45.7ms)
+Started GET "/" for 172.21.0.1 at 2018-01-15 12:15:23 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (12.9ms)
+  Rendered home/index.html.erb within layouts/application (160.0ms)
+Completed 500 Internal Server Error in 444ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:24:1: unexpected indentation):
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:     <%= favicon_link_tag '/favicon.png' %>
+    10:   </head>
+    11: 
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1759817498214934910_69898317970020'
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (9.5ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (33.8ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (71.4ms)
+Started GET "/" for 172.21.0.1 at 2018-01-15 12:15:35 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (3.3ms)
+  Rendered home/index.html.erb within layouts/application (64.9ms)
+Completed 200 OK in 134ms (Views: 131.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 12:15:35 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>""}
+Completed 200 OK in 682ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 12:16:20 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (3.8ms)
+  Rendered home/index.html.erb within layouts/application (74.8ms)
+Completed 200 OK in 515ms (Views: 513.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 12:16:20 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>""}
+Completed 200 OK in 816ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 12:40:07 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (17.4ms)
+  Rendered home/index.html.erb within layouts/application (38.3ms)
+Completed 200 OK in 633ms (Views: 630.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 12:40:14 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"5"}
+Completed 200 OK in 1685ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 12:40:16 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"5"}
+Completed 200 OK in 1444ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 12:40:21 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"AUD", "currency_destination"=>"EUR", "quantity"=>"5"}
+Completed 200 OK in 1976ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 12:41:57 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"AUD", "currency_destination"=>"EUR", "quantity"=>"2"}
+Completed 200 OK in 4893ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 12:42:07 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"2"}
+Completed 200 OK in 1233ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 12:49:24 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"1"}
+Completed 200 OK in 975ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 12:54:51 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (26.9ms)
+  Rendered home/index.html.erb within layouts/application (28.9ms)
+Completed 200 OK in 610ms (Views: 606.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 12:54:59 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"1"}
+Completed 200 OK in 1269ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 12:56:44 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (2.7ms)
+  Rendered home/index.html.erb within layouts/application (35.9ms)
+Completed 200 OK in 1075ms (Views: 1072.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 16:39:30 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (7.6ms)
+  Rendered home/index.html.erb within layouts/application (69.6ms)
+Completed 500 Internal Server Error in 1919ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:19:28: unexpected ->):
+    4:     <title>ExchangeApp</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:     <%= favicon_link_tag '/favicon.png' %>
+   10:   </head>
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___4515988497820895624_36168840'
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (9.6ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (50.3ms)
+Started GET "/" for 172.21.0.1 at 2018-01-15 16:39:54 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (2.4ms)
+  Rendered home/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 674ms (Views: 671.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 16:40:10 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (3.4ms)
+  Rendered home/index.html.erb within layouts/application (5.5ms)
+Completed 500 Internal Server Error in 266ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:18:28: unexpected ->):
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:     <%= favicon_link_tag '/favicon.png' %>
+    10:   </head>
+    11: 
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___4515988497820895624_70137017715160'
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.4ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.7ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (37.2ms)
+Started GET "/" for 172.21.0.1 at 2018-01-15 16:40:28 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (2.9ms)
+  Rendered home/index.html.erb within layouts/application (4.7ms)
+Completed 500 Internal Server Error in 307ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:18:29: unexpected ->):
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:     <%= favicon_link_tag '/favicon.png' %>
+    10:   </head>
+    11: 
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___4515988497820895624_70136937990100'
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.9ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (35.9ms)
+Started GET "/" for 172.21.0.1 at 2018-01-15 16:40:57 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (3.1ms)
+  Rendered home/index.html.erb within layouts/application (5.7ms)
+Completed 500 Internal Server Error in 257ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:18:31: unexpected ->):
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:     <%= favicon_link_tag '/favicon.png' %>
+    10:   </head>
+    11: 
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___4515988497820895624_70136955899120'
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (9.5ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (37.2ms)
+Started GET "/" for 172.21.0.1 at 2018-01-15 16:41:07 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (2.6ms)
+  Rendered home/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 402ms (Views: 400.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 16:42:02 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (2.7ms)
+  Rendered home/index.html.erb within layouts/application (4.7ms)
+Completed 500 Internal Server Error in 248ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:18:29: unexpected ->):
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:     <%= favicon_link_tag '/favicon.png' %>
+    10:   </head>
+    11: 
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___4515988497820895624_70136940846520'
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (11.9ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (40.6ms)
+Started GET "/" for 172.21.0.1 at 2018-01-15 16:43:02 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (2.6ms)
+  Rendered home/index.html.erb within layouts/application (5.2ms)
+Completed 500 Internal Server Error in 278ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:18:28: unexpected ->):
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:     <%= favicon_link_tag '/favicon.png' %>
+    10:   </head>
+    11: 
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___4515988497820895624_70136937101960'
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.2ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (34.5ms)
+Started GET "/" for 172.21.0.1 at 2018-01-15 16:56:37 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (3.1ms)
+  Rendered home/index.html.erb within layouts/application (4.8ms)
+Completed 500 Internal Server Error in 290ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:18:29: unexpected ->):
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:     <%= favicon_link_tag '/favicon.png' %>
+    10:   </head>
+    11: 
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___4515988497820895624_70137023882300'
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.8ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (35.6ms)
+Started GET "/" for 172.21.0.1 at 2018-01-15 16:58:19 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (3.2ms)
+  Rendered home/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 454ms (Views: 451.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 16:58:26 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"1"}
+Completed 200 OK in 1051ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 16:58:43 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (3.2ms)
+  Rendered home/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 497ms (Views: 494.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 16:58:52 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (3.9ms)
+  Rendered home/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 66ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 16:59:08 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (2.8ms)
+  Rendered home/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 408ms (Views: 405.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 16:59:12 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"5"}
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 16:59:12 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"5"}
+Completed 200 OK in 4874ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 5122ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 16:59:22 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (3.8ms)
+  Rendered home/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 400ms (Views: 398.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 16:59:43 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (2.9ms)
+  Rendered home/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 441ms (Views: 438.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 16:59:47 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"6"}
+Completed 200 OK in 5693ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 17:00:01 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (2.8ms)
+  Rendered home/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 399ms (Views: 396.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 17:00:11 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (5.1ms)
+  Rendered home/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 429ms (Views: 427.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 17:00:31 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (3.4ms)
+  Rendered home/index.html.erb within layouts/application (5.2ms)
+Completed 500 Internal Server Error in 288ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:19:25: unexpected ->):
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:     <%= favicon_link_tag '/favicon.png' %>
+    10:   </head>
+    11: 
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___4515988497820895624_70136954500280'
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (9.6ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (38.2ms)
+Started GET "/" for 172.21.0.1 at 2018-01-15 17:00:41 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (6.1ms)
+  Rendered home/index.html.erb within layouts/application (7.9ms)
+Completed 500 Internal Server Error in 354ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:19:27: unexpected ->):
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:     <%= favicon_link_tag '/favicon.png' %>
+    10:   </head>
+    11: 
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___4515988497820895624_70137018768680'
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.3ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (34.4ms)
+Started GET "/" for 172.21.0.1 at 2018-01-15 17:00:53 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (2.6ms)
+  Rendered home/index.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 250ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:19:27: unexpected =>):
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:     <%= favicon_link_tag '/favicon.png' %>
+    10:   </head>
+    11: 
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___4515988497820895624_70136954229940'
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.9ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (35.6ms)
+Started GET "/" for 172.21.0.1 at 2018-01-15 17:01:00 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (2.6ms)
+  Rendered home/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 411ms (Views: 409.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 17:01:07 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (2.7ms)
+  Rendered home/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 58ms (Views: 56.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 17:01:23 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (2.5ms)
+  Rendered home/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 542ms (Views: 540.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 17:01:34 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (3.0ms)
+  Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 53ms (Views: 51.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 17:01:39 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"6"}
+Completed 200 OK in 687ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 17:01:47 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (2.8ms)
+  Rendered home/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 496ms (Views: 493.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 17:02:02 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (3.4ms)
+  Rendered home/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 434ms (Views: 431.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 17:08:37 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (2.6ms)
+  Rendered home/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 396ms (Views: 394.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 17:08:45 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"2"}
+Completed 200 OK in 1110ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 17:08:58 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (2.8ms)
+  Rendered home/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 428ms (Views: 425.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 17:09:05 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"1"}
+Completed 200 OK in 720ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 17:09:16 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (6.4ms)
+  Rendered home/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 478ms (Views: 476.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 17:09:22 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"5"}
+Completed 200 OK in 719ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 17:09:32 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (4.3ms)
+  Rendered home/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 424ms (Views: 420.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 17:09:39 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"1"}
+Completed 200 OK in 727ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 17:10:53 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (2.6ms)
+  Rendered home/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 394ms (Views: 392.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 17:11:00 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"1"}
+Completed 200 OK in 698ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 17:11:31 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (7.1ms)
+  Rendered home/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 450ms (Views: 447.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 17:11:37 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"3"}
+Completed 200 OK in 698ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 17:11:47 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (5.1ms)
+  Rendered home/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 461ms (Views: 458.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 17:11:53 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"1"}
+Completed 200 OK in 813ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 17:12:07 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (3.7ms)
+  Rendered home/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 383ms (Views: 380.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 17:12:11 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"1"}
+Completed 200 OK in 731ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 17:12:23 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (2.9ms)
+  Rendered home/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 413ms (Views: 410.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 17:12:29 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"2"}
+Completed 200 OK in 715ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 17:13:09 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (2.8ms)
+  Rendered home/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 412ms (Views: 409.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 17:13:13 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"1"}
+Completed 200 OK in 841ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 17:14:32 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (2.9ms)
+  Rendered home/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 109ms (Views: 107.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 17:14:37 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"1"}
+Completed 200 OK in 1442ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 17:23:32 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (3.0ms)
+  Rendered home/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 59ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 17:46:49 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"6"}
+Completed 200 OK in 680ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 18:47:07 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"5"}
+Completed 200 OK in 674ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 18:57:31 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (2.5ms)
+  Rendered home/index.html.erb within layouts/application (4.2ms)
+Completed 500 Internal Server Error in 330ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:24:15: unexpected :):
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:     <%= favicon_link_tag '/favicon.png' %>
+    10:   </head>
+    11: 
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___4515988497820895624_70136937923780'
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.9ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendering /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/bundle/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (33.9ms)
+Started GET "/" for 172.21.0.1 at 2018-01-15 18:57:42 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (6.3ms)
+  Rendered home/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 446ms (Views: 444.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 18:57:47 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"1"}
+Completed 200 OK in 671ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-15 19:31:50 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (4.7ms)
+  Rendered home/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 122ms (Views: 110.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 19:31:55 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"3"}
+Completed 200 OK in 651ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 19:41:46 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"1"}
+Completed 200 OK in 814ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-15 20:34:47 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"USD", "quantity"=>"1"}
+Completed 200 OK in 673ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-16 12:04:10 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+Started GET "/" for 172.21.0.1 at 2018-01-16 12:04:14 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (4.6ms)
+  Rendered home/index.html.erb within layouts/application (35.5ms)
+  Rendered shared/_exchange_box.html.erb (4.3ms)
+  Rendered home/index.html.erb within layouts/application (143.5ms)
+Completed 200 OK in 3081ms (Views: 2893.7ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2931ms (Views: 2921.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:04:26 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"5"}
+Completed 200 OK in 865ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:04:31 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"1"}
+Completed 200 OK in 656ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:07:42 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"5"}
+Completed 200 OK in 680ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:08:43 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"AUD", "quantity"=>"1"}
+Completed 200 OK in 649ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-16 12:10:23 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (3.1ms)
+  Rendered home/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 485ms (Views: 468.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:10:27 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"1"}
+Completed 200 OK in 664ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:10:36 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"BRL", "quantity"=>"1"}
+Completed 200 OK in 664ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:10:38 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"BRL", "quantity"=>"1"}
+Completed 200 OK in 656ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:10:42 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"HUF", "currency_destination"=>"BRL", "quantity"=>"1"}
+Completed 200 OK in 702ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:10:44 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"HUF", "quantity"=>"1"}
+Completed 200 OK in 642ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:10:45 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"HUF", "currency_destination"=>"BRL", "quantity"=>"1"}
+Completed 200 OK in 652ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:10:48 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"HUF", "currency_destination"=>"BRL", "quantity"=>"5"}
+Completed 200 OK in 649ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:10:50 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"HUF", "quantity"=>"5"}
+Completed 200 OK in 668ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:10:52 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"HUF", "currency_destination"=>"BRL", "quantity"=>"5"}
+Completed 200 OK in 647ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:10:54 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"HUF", "quantity"=>"5"}
+Completed 200 OK in 672ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:10:56 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"HUF", "currency_destination"=>"BRL", "quantity"=>"5"}
+Completed 200 OK in 661ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-16 12:11:03 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (3.3ms)
+  Rendered home/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 67ms (Views: 65.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:11:07 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"1"}
+Completed 200 OK in 679ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:11:09 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"EUR", "currency_destination"=>"BRL", "quantity"=>"1"}
+Completed 200 OK in 672ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:11:13 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"1"}
+Completed 200 OK in 712ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:11:15 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"EUR", "currency_destination"=>"BRL", "quantity"=>"1"}
+Completed 200 OK in 708ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:13:57 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"ILS", "currency_destination"=>"EUR", "quantity"=>"1"}
+Completed 200 OK in 814ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:13:59 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"EUR", "currency_destination"=>"ILS", "quantity"=>"1"}
+Completed 200 OK in 643ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:14:01 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"ILS", "currency_destination"=>"EUR", "quantity"=>"1"}
+Completed 200 OK in 751ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:14:02 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"EUR", "currency_destination"=>"ILS", "quantity"=>"1"}
+Completed 200 OK in 690ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-16 12:14:23 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (5.0ms)
+  Rendered home/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 63ms (Views: 61.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:14:27 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"1"}
+Completed 200 OK in 653ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:14:28 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"EUR", "currency_destination"=>"BRL", "quantity"=>"1"}
+Completed 200 OK in 659ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:14:31 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"1"}
+Completed 200 OK in 658ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:14:33 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"EUR", "currency_destination"=>"BRL", "quantity"=>"1"}
+Completed 200 OK in 673ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:14:36 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"1"}
+Completed 200 OK in 649ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.21.0.1 at 2018-01-16 12:15:54 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_exchange_box.html.erb (3.2ms)
+  Rendered home/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 513ms (Views: 510.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:15:57 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"EUR", "quantity"=>"1"}
+Completed 200 OK in 674ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:15:59 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"BRL", "currency_destination"=>"HRK", "quantity"=>"1"}
+Completed 200 OK in 690ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:17:39 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"AUD", "currency_destination"=>"HRK", "quantity"=>"1"}
+Completed 200 OK in 666ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:18:23 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"AUD", "currency_destination"=>"IDR", "quantity"=>"1"}
+Completed 200 OK in 679ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:18:28 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"AUD", "currency_destination"=>"IDR", "quantity"=>"50"}
+Completed 200 OK in 653ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:20:30 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"CHF", "currency_destination"=>"IDR", "quantity"=>"50"}
+Completed 200 OK in 658ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:20:31 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"IDR", "currency_destination"=>"CHF", "quantity"=>"50"}
+Completed 200 OK in 661ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:20:34 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"CHF", "currency_destination"=>"IDR", "quantity"=>"50"}
+Completed 200 OK in 670ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exchange" for 172.21.0.1 at 2018-01-16 12:20:35 +0000
+Cannot render console from 172.21.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#exchange as JSON
+  Parameters: {"currency"=>"IDR", "currency_destination"=>"CHF", "quantity"=>"50"}
+Completed 200 OK in 735ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
