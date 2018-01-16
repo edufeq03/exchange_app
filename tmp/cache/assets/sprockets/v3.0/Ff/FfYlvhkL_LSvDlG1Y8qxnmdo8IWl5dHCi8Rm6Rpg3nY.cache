@@ -1,0 +1,52 @@
+I"A(function() {
+  $(document).ready(function() {
+    return $('form').submit(function() {
+      if ($('form').attr('action') === '/exchange') {
+        $.ajax('/exchange', {
+          type: 'POST',
+          dataType: 'json',
+          data: {
+            currency: $("#currency").val(),
+            currency_destination: $("#currency_destination").val(),
+            quantity: $("#quantity").val()
+          },
+          error: function(jqXHR, textStatus, errorThrown) {
+            return alert(textStatus);
+          },
+          success: function(data, text, jqXHR) {
+            return $('#result').val(data.value);
+          }
+        });
+        return false;
+      }
+    });
+  });
+
+  $(document).ready(function() {
+    var currency_destination_val, currency_val, quantity_val;
+    currency_val = document.getElementById('currency');
+    currency_destination_val = document.getElementById('currency_destination');
+    quantity_val = document.getElementById('quantity');
+    $.ajax('/exchange', {
+      type: 'POST',
+      dataType: 'json',
+      data: {
+        currency: $("#currency").val(),
+        currency_destination: $("#currency_destination").val(),
+        quantity: $("#quantity").val()
+      },
+      error: function(jqXHR, textStatus, errorThrown) {
+        return alert(textStatus);
+      },
+      success: function(data, text, jqXHR) {
+        return $('#result').val(data.value);
+      }
+    });
+    return false;
+    currency.addEventListener('onclick');
+    currency_destination.addEventListener('onclick');
+    return quantity.addEventListener('onclick');
+  });
+
+}).call(this);
+:ET
